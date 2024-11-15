@@ -19,7 +19,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000'],
+    'allowed_origins' => [
+        'http://localhost:3000',  // If you're still testing locally
+        'https://rentacarnow.store',  // Your production frontend URL
+    ],
 
     'allowed_origins_patterns' => [],
 
